@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Antipasto Pro;
+    src: url(../tipografia/Antipasto-Pro-Regular-trial.ttf)
+}
+
+$color-negro: black;
+
+.color {
+    background-color: $color-negro;
+}
+
+@import "./layout/header";
+@import "./layout/titulos";
+@import "./layout/seccionesinicio";
+@import "./footer/footer";
+@import "./layout/seccionesclientes.scss";
+@import "./layout/seccionesequipo";
+@import "./layout/seccionesnosotros";
+@import "./layout/seccioneservicios";
+@import "./desktop/vistadesktop";
+@import "./desktop/desktopclientes";
+@import "./desktop/desktopequipo";
+@import "./desktop/desktopnosotros";
+@import "./desktop/desktopservicios";
+@import "./desktop/footerdesktop";

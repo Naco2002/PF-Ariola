@@ -1,0 +1,39 @@
+@keyframes escalah1 {
+    0%{
+        font-size: 10px;
+    }
+    50%{
+        font-size: 12px;
+    }
+    80%{
+        font-size: 16px;
+    }
+    100%{
+        font-size: 22px;
+    }
+}
+.titulos {
+    text-align: center;
+    margin-top: 15px;
+
+    h1 {
+        color: white;
+        font-family: Antipasto Pro;
+
+        animation-name: escalah1;
+        animation-timing-function: linear;
+        animation-duration: 5s;
+        animation-delay: 2s;
+    }
+
+    h2 {
+        color: white;
+        font-family: Antipasto Pro;
+        font-size: 17px;
+
+        animation-name: escalah1;
+        animation-timing-function: linear;
+        animation-duration: 5s;
+        animation-delay: 2s;
+    }
+}

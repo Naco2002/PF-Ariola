@@ -1,0 +1,52 @@
+@mixin parrafo {
+    color: white;
+    font-family: Antipasto Pro;
+}
+
+.segunda {
+    display: flexbox;
+    text-align: center;
+    margin: 30px;
+
+    video {
+        width: 360px;
+
+    }
+
+    p {
+        @include parrafo;
+        padding: 10px;
+        margin: 10px;
+
+    }
+}
+
+.tercera {
+    text-align: center;
+
+    h3 {
+        color: white;
+        text-decoration: underline;
+    }
+
+    .contacto {
+        transition: 2s;
+            &:hover{
+                transform: rotate(10deg);
+            }
+
+        input {
+            background-color: rgb(73, 153, 73);
+            color: white;
+            border-radius: 8px;
+            font-family: Antipasto Pro;
+            margin-top: 20px;
+        }
+    }
+
+    img {
+        width: 360px;
+        margin-top: 30px;
+    }
+
+}

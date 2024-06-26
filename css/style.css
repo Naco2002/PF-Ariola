@@ -1,0 +1,424 @@
+@font-face {
+  font-family: Antipasto Pro;
+  src: url(../tipografia/Antipasto-Pro-Regular-trial.ttf);
+}
+.color {
+  background-color: black;
+}
+
+header {
+  display: flex;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+  justify-content: space-between;
+}
+header .logo {
+  height: 50px;
+  text-align: center;
+}
+header .menu {
+  height: 50px;
+  width: 50px;
+}
+header a {
+  font-family: Antipasto Pro;
+}
+
+@keyframes escalah1 {
+  0% {
+    font-size: 10px;
+  }
+  50% {
+    font-size: 12px;
+  }
+  80% {
+    font-size: 16px;
+  }
+  100% {
+    font-size: 22px;
+  }
+}
+.titulos {
+  text-align: center;
+  margin-top: 15px;
+}
+.titulos h1 {
+  color: white;
+  font-family: Antipasto Pro;
+  animation-name: escalah1;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+  animation-delay: 2s;
+}
+.titulos h2 {
+  color: white;
+  font-family: Antipasto Pro;
+  font-size: 17px;
+  animation-name: escalah1;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+  animation-delay: 2s;
+}
+
+.segunda {
+  display: flexbox;
+  text-align: center;
+  margin: 30px;
+}
+.segunda video {
+  width: 360px;
+}
+.segunda p {
+  color: white;
+  font-family: Antipasto Pro;
+  padding: 10px;
+  margin: 10px;
+}
+
+.tercera {
+  text-align: center;
+}
+.tercera h3 {
+  color: white;
+  text-decoration: underline;
+}
+.tercera .contacto {
+  transition: 2s;
+}
+.tercera .contacto:hover {
+  transform: rotate(10deg);
+}
+.tercera .contacto input {
+  background-color: rgb(73, 153, 73);
+  color: white;
+  border-radius: 8px;
+  font-family: Antipasto Pro;
+  margin-top: 20px;
+}
+.tercera img {
+  width: 360px;
+  margin-top: 30px;
+}
+
+footer {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .wpp, footer .ig {
+  width: 30px;
+}
+footer .redes {
+  transform: translateY(5px);
+}
+footer .sukha-footer {
+  width: 100px;
+}
+
+.segundaclientes {
+  margin-top: 50px;
+}
+
+.terceraclientes {
+  margin-top: 50px;
+  display: block;
+  text-align: center;
+}
+.terceraclientes .opiniones {
+  color: wheat;
+  font-family: Antipasto Pro;
+}
+.terceraclientes .pclientes {
+  color: white;
+  font-family: Antipasto Pro;
+}
+
+.titulos .h1equipo {
+  font-size: 50px;
+}
+.titulos .h2equipo {
+  font-size: 25px;
+}
+
+.segundaequipo .h3equipo {
+  font-family: Antipasto Pro;
+  color: wheat;
+}
+.segundaequipo .h4equipo {
+  font-family: Antipasto Pro;
+  color: wheat;
+}
+.segundaequipo .h5equipo {
+  font-family: Antipasto Pro;
+  color: wheat;
+}
+.segundaequipo .descripcion {
+  font-family: Antipasto Pro;
+  color: black;
+}
+
+.lema {
+  display: block;
+  text-align: center;
+  margin: 25px;
+}
+.lema .h6equipo {
+  color: white;
+  font-size: 25px;
+  font-family: Antipasto Pro;
+}
+.lema .subequipo {
+  color: white;
+  font-family: Antipasto Pro;
+}
+
+.sectionvideo {
+  display: block;
+  text-align: center;
+}
+.sectionvideo .videoivan {
+  width: 300px;
+}
+
+.segundanosotros {
+  display: block;
+  text-align: center;
+  margin: 50px;
+}
+.segundanosotros .h3nosotros, .segundanosotros .h4nosotros {
+  color: wheat;
+  font-family: Antipasto Pro;
+  font-size: 30px;
+}
+.segundanosotros .pnosotros {
+  color: white;
+  font-family: Antipasto Pro;
+}
+
+.terceranosotros {
+  display: flexbox;
+  text-align: center;
+}
+.terceranosotros .h5nosotros {
+  color: wheat;
+  font-family: Antipasto Pro;
+  font-size: 30px;
+}
+.terceranosotros .lista {
+  color: white;
+}
+
+.segundaservicios {
+  display: block;
+  text-align: center;
+  margin: 30px;
+}
+.segundaservicios .ptitulos {
+  color: wheat;
+  font-family: Antipasto Pro;
+  font-size: 18px;
+  text-decoration-line: underline;
+}
+.segundaservicios .pservicios {
+  color: white;
+  font-family: Antipasto Pro;
+  font-size: 15px;
+}
+
+.terceraservicios {
+  display: block;
+  text-align: center;
+}
+.terceraservicios .ptitulos {
+  color: wheat;
+  font-family: Antipasto Pro;
+  font-size: 18px;
+  text-decoration-line: underline;
+}
+.terceraservicios .pservicios {
+  color: white;
+  font-family: Antipasto Pro;
+  font-size: 15px;
+}
+
+.cuartaservicios {
+  display: block;
+  text-align: center;
+  margin: 30px;
+}
+.cuartaservicios .h3servicios {
+  color: wheat;
+  font-family: Antipasto Pro;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.cuartaservicios .video-servicios {
+  width: 300px;
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    margin: 0px;
+    padding: 0px;
+  }
+  header .logo {
+    margin-top: 10px;
+  }
+  header nav {
+    display: block;
+    text-align: center;
+  }
+  header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  header nav ul li {
+    margin: 10px;
+  }
+  header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Antipasto Pro;
+    font-size: 55px;
+  }
+  .titulos h1 {
+    font-size: 70px;
+  }
+  .titulos h2 {
+    font-size: 35px;
+  }
+  .segunda {
+    display: grid;
+    grid-template-columns: 4, 140px;
+    grid-template-columns: 4, 140px;
+  }
+  .segunda .video-joaco {
+    margin: 20px;
+  }
+  .segunda .item1 {
+    grid-column: 1/2;
+    grid-row: 1/4;
+  }
+  .segunda .item2 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    padding-bottom: 70px;
+  }
+  .tercera {
+    display: flex;
+    justify-content: space-around;
+  }
+  .tercera .mkt {
+    width: 550px;
+    position: relative;
+    right: 120px;
+    bottom: 40px;
+    border-radius: 20px;
+  }
+  .tercera .contacto {
+    padding: 100px;
+    transition: 2s;
+  }
+  .tercera .contacto:hover {
+    transform: rotate(10deg);
+  }
+}
+@media only screen and (min-width: 768px) {
+  .segundaclientes {
+    display: flex;
+    justify-content: space-around;
+  }
+  .segundaclientes .carousel {
+    width: 700px;
+  }
+  .divclientes {
+    display: flex;
+  }
+  .divclientes .uno {
+    border: 1px solid gray;
+  }
+  .divclientes .dos {
+    border: 1px solid gray;
+  }
+  .divclientes .tres {
+    border: 1px solid gray;
+  }
+  .divclientes .uno:hover {
+    color: wheat;
+  }
+  .divclientes .dos:hover {
+    color: wheat;
+  }
+  .divclientes .tres:hover {
+    color: wheat;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .h1equipo {
+    font-size: 70px;
+  }
+  .h2equipo {
+    font-size: 35px;
+  }
+  .segundaequipo {
+    display: flex;
+    justify-content: space-around;
+  }
+  .segundaequipo .carouselequipo {
+    height: 550px;
+  }
+  .segundaequipo .carouselequipo .fotojoaco {
+    height: 500px;
+  }
+  .w-100 {
+    display: none;
+  }
+  .h6equipo {
+    font-size: 70px;
+  }
+  .subequipo {
+    font-size: 25px;
+  }
+  .ig {
+    width: 50px;
+  }
+  .wpp, footer .ig {
+    width: 50px;
+  }
+  .sukha-footer {
+    width: 150px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .contenedor {
+    display: inline;
+  }
+  .contenedor .lista {
+    font-size: 20px;
+  }
+  .pnosotros {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .video-servicios {
+    margin: 50px;
+    border-radius: 10px;
+    transform: translateY(50px);
+  }
+  .h3servicios {
+    margin-top: 70px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .footer .redes img {
+    width: 50px;
+  }
+  .footer .sukha-footer {
+    width: 150px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

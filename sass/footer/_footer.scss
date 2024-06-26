@@ -1,0 +1,23 @@
+footer {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+
+    .ig {
+        @extend .wpp;
+    }
+
+    .wpp {
+        width: 30px;
+
+    }
+
+    .redes {
+        transform: translateY(5px);
+    }
+
+    .sukha-footer {
+        width: 100px;
+    }
+
+}
